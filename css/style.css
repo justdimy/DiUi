@@ -1,1 +1,99 @@
+/*	©justDimy Style.css v.1.0	*/
+
+/*	Глобальный стиль	===================================================================================   */
+::selection {	/*	Выделенный пользователем текст	*/
+	color: #ffffff;
+	background: #0044db;
+}
+
+* {		/*	Выбирает все элементы	*/
+	padding: 0;
+	margin: 0;
+}
+
+html {	/*	Стиль HTML	*/
+	font-family: "Google Sans", sans-serif;
+	font-size: 16px;
+	background: #f0f0f0;
+	min-width: 360px;
+}
+/*	Глобальный текст		===================================================================================   */
+h1 {		/*	Заголовок H1	*/
+	font-family: "Google Sans", sans-serif;
+	font-size: 6rem;
+	font-weight: lighter;
+	font-style: normal;
+	letter-spacing: -1.5px;
+	vertical-align: baseline;
+	display: block;
+}
+h2 {		/*	Заголовок H2	*/
+	font-family: "Google Sans", sans-serif;
+	font-size: 3.75rem;
+	font-weight: lighter;
+	font-style: normal;
+	letter-spacing: -0.5px;
+	vertical-align: baseline;
+	display: block;
+}
+h3 {		/*	Заголовок H3	*/
+	font-family: "Google Sans";
+	font-size: 3rem;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 0px;
+	vertical-align: baseline;
+	display: block;
+}
+h4 {		/*	Заголовок H4	*/
+	font-family: "Google Sans";
+	font-size: 2.125rem;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 0.25px;
+	vertical-align: baseline;
+	display: block;
+}
+h5 {		/*	Заголовок H5	*/
+	font-family: "Google Sans";
+	font-size: 1.5rem;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 0px;
+	vertical-align: baseline;
+	display: block;
+}
+h6 {		/*	Заголовок H6	*/
+	font-family: "Google Sans";
+	font-size: 1.25rem;
+	font-weight: bold;
+	font-style: normal;
+	letter-spacing: 0.5px;
+	vertical-align: baseline;
+	display: block;
+}
+/*	Ссылки	===================================================================================   */
+
+/* unvisited link */
+a:link {
+  color: #0066db;
+}
+
+/* visited link */
+a:visited {
+  color: #0044db;
+}
+
+/* mouse over link */
+a:hover {
+  color: #0066db;
+}
+
+/* selected link */
+a:active {
+  color: #db0000;
+} 
+
+
+
 
